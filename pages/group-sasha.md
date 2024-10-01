@@ -6,6 +6,10 @@ layout: sasha
 
 # Alexandra Biddiscombe
 
+![img]({{ "/assets/images/datavis_website_character_1.png" | relative_url }})
+
+<br>
+
 My expectations going into this project:
 
 <br>
