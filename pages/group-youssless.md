@@ -6,6 +6,10 @@ layout: youssless
 
 # Youssef Sedra
 
+![img]
+
+<br>
+
 My expectations going into this project:
 
 <br>
@@ -29,3 +33,5 @@ I would like to produce a clean and complete project.
 I'm so sorry I couldn't be here in person today, but here's a pre-recorded video for my part of the presentation instead!
 
 [vid]({{ "/assets/videos/youssef-intro-vid-1.mp4" | relative_url }})
+
+[img]: {{ "/assets/images/datavis_website_character_2.png" | relative_url }}
