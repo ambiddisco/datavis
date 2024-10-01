@@ -203,3 +203,23 @@ img {
     float: left;
     margin-top: -2rem;
 }
+
+.city-map {
+    background-image: url("{{ 'assets/images/new_york_city.jpg' | relative_url }}");
+    background-repeat: no-repeat;
+    background-size: 200%;
+    z-index: 2;
+    min-height: 100vh;
+    min-width: 100vw;
+    opacity: 50%;
+    position: absolute;
+    top: 0;
+    left:0;
+    z-index: -1;
+}
+
+.invisible {
+    display: none;
+}
+
+
