@@ -1,14 +1,14 @@
 - title: Home
-  link: /
+  link: /datavis/
 
 - title: Group
-  link: /group/
+  link: /datavis/group/
 
 - title: Objectives
-  link: /objectives/
+  link: /datavis/objectives/
 
 - title: Dataset
-  link: /dataset/
+  link: /datavis/dataset/
 
 - title: Visualisations
-  link: /visualisations/
+  link: /datavis/visualisations/
