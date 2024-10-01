@@ -6,6 +6,10 @@ layout: willy
 
 # William Ambrosetti
 
+![img]({{ "/assets/images/datavis_website_character.png" | relative_url }})
+
+<br>
+
 My expectations going into this project:
 
 <br>
