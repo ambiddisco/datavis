@@ -1,0 +1,197 @@
+--- 
+--- 
+@import url('https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&display=swap');
+
+
+:root {
+    /* FONT DEFAULTS */
+    --FF: "Cabin Sketch", "Cabin", sans-serif;
+    --FFP: "Cabin", sans-serif;
+    --FW: 800;
+    --FS: 1.5rem;
+
+    /* COLOURS */
+    --BGCOLOR: #a6d38d;
+    --BGTEXT: #d7fec2;
+    --NAVBAR: #0b4922;
+    --NAVTEXT: #d7fec2;
+    --TEXTCOLOR: black;
+    --HEADERCOLOR: #0b4922;
+    --ACCENTCOLOR1: #37125C;
+    --ACCENTCOLOR2: #FFCBF8;
+    --ACCENTCOLOR3: #f2aa7e;
+}
+
+/* GENERAL RESETS */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* GENERAL RULES */
+html {
+    font-family: var(--FF);
+    font-weight: var(--FW);
+    font-size: var(--FS);
+    color: var(--TEXTCOLOR);
+    background-color: var(--BGCCOLOR);
+}
+
+body {
+    padding:0;
+    background-color: var(--BGCOLOR);
+    min-height: 100vh;
+}
+
+header {
+    background-color: var(--NAVBAR);
+}
+
+nav {
+    background-color: var(--NAVBAR);
+    position: fixed;
+    width: 100vw;
+    top: 0;
+    padding: 1rem;
+    border-bottom: 5px solid var(--NAVTEXT);
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+    justify-content: center;
+    font-size: 1.5rem;
+}
+
+nav a {
+    font-family: var(--FF);
+    color: var(--NAVTEXT);
+    text-decoration: none;
+
+    /*outline: 2px solid black;
+    border-top-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;*/
+}
+
+nav a:hover, nav a:target {
+    text-decoration: underline;
+}
+
+nav a:active {
+    color: white;
+}
+
+footer {
+    border-top: 5px solid var(--NAVTEXT);
+    position: static;
+    margin-top: 2.5rem;
+    bottom: 0;
+    background-color: var(--NAVBAR);
+    color: var(--NAVTEXT);
+    width: 100vw;
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    padding: 1rem;
+    font-weight: 900;
+    font-size: 1.2rem;
+}
+
+footer p {
+    font-size: 1.2rem;
+}
+
+main {
+    font-size: var(--FS);
+    border: 5px solid var(--HEADERCOLOR);
+    border-radius: 2rem;
+    outline: 5px solid var(--BGTEXT);
+    outline-offset: 0.5rem;
+    margin: 6rem 12% 0 12%;
+    min-height: 72vh;
+    padding: 2rem;
+    background-color: var(--BGTEXT);
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    align-items: center;
+    text-align: center;
+}
+
+/*
+.content {
+    background-color: blue;
+}*/
+
+.central {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+p, li {
+    font-family: var(--FFP);
+
+}
+
+h1 {
+    margin-bottom: 2rem;
+    color: var(--HEADERCOLOR);
+}
+
+h2 {
+    margin-bottom: 1.5rem;
+    color: var(--HEADERCOLOR);
+
+}
+
+.special {
+    font-family: var(--FF);
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-inline: 2rem;
+    margin-top: 5rem;
+    width: 100vw;
+    font-size: var(--FS);
+    margin-bottom: -4rem;
+}
+
+.buttons a {
+    background-color: var(--BGTEXT);
+    border: 5px solid var(--BGTEXT);
+    border-radius: 1rem;
+    outline: 5px solid var(--HEADERCOLOR);
+    outline-offset: 0.2rem;
+    text-decoration: none;
+}
+
+.person-content a {
+    font-family: var(--FFP);
+}
+
+.group li {
+    list-style: none;
+    font-family: var(--FF);
+}
+
+.group a {
+    text-decoration: none;
+    color: var(--HEADERCOLOR);
+}
+
+a {
+    font-family: var(--FF);
+    color: var(--HEADERCOLOR);
+}
+
+a:hover, a:target {
+    text-decoration: underline;
+}
