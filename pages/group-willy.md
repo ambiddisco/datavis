@@ -20,7 +20,7 @@ I am capable of efficiently programming, manipulating and exploring data, as wel
 <br>
 
 <span class="special">Weakness:</span>
-I have a difficult time finding correaltions in the data that allow to follow the research objectives, and have to make many visualisations to reach them.
+I have a difficult time finding correlations in the data that allow to follow the research objectives, and have to make many visualisations to reach them.
 
 <br>
 
