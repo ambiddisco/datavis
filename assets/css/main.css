@@ -209,7 +209,7 @@ img {
     background-repeat: no-repeat;
     background-size: 200%;
     min-height: 100vh;
-    min-width: 100vw;
+    min-width: 99.5vw;
     opacity: 50%;
     position: fixed;
     top: 0;
