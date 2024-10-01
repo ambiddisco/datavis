@@ -9,7 +9,7 @@
     --FF: "Cabin Sketch", "Cabin", sans-serif;
     --FFP: "Cabin", sans-serif;
     --FW: 800;
-    --FS: 1.5rem;
+    --FS: 1.3rem;
 
     /* COLOURS */
     --BGCOLOR: #a6d38d;
@@ -208,7 +208,6 @@ img {
     background-image: url("{{ 'assets/images/new_york_city.jpg' | relative_url }}");
     background-repeat: no-repeat;
     background-size: 200%;
-    z-index: 2;
     min-height: 100vh;
     min-width: 100vw;
     opacity: 50%;
