@@ -22,3 +22,10 @@ I need to put more work into my visualisations.
 
 <span class="special">Goal:</span>
 I would like to produce a clean and complete project.
+
+<br>
+<br>
+
+I'm so sorry I couldn't be here in person today, but here's a pre-recorded video for my part of the presentation instead!
+
+[vid]({{ "/assets/videos/youssef-intro-vid-1.mp4" | relative_url }})
