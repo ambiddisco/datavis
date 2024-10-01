@@ -10,7 +10,7 @@
         <nav>
             <ul>
                 {% for item in site.data.navigation %}
-                    <a class="{% if page.url == item.link %}active{% endif %}" href="{{ baseurl }}/{{ item.link }}">{{ item.title }}</a>
+                    <a class="{% if page.url == item.link %}active{% endif %}" href="{{ baseurl }}/datavis/{{ item.link }}">{{ item.title }}</a>
                 {% endfor %}
             </ul>
         </nav>
