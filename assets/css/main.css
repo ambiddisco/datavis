@@ -63,7 +63,7 @@ nav ul {
     flex-direction: row;
     gap: 1.5rem;
     justify-content: center;
-    font-size: 1.7rem;
+    font-size: 1.5rem;
 }
 
 nav a {
@@ -110,15 +110,15 @@ main {
     border-radius: 2rem;
     outline: 5px solid var(--BGTEXT);
     outline-offset: 0.5rem;
-    margin: 6rem 12% 0 12%;
+    margin: 6rem 15% 0 15%;
     min-height: 72vh;
-    padding: 2rem;
+    padding: 2rem 5rem 5rem 5rem;
     background-color: var(--BGTEXT);
     display: flex;
     flex-direction: column;
     justify-content: top;
     align-items: center;
-    text-align: center;
+    text-align: left;
 }
 
 .central {
