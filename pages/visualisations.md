@@ -34,6 +34,7 @@ Let's start by taking the recorded factors that went in to the crashes, by visua
 Even with this information, we can assume outside factors have an impact on the crash rates. Let's take data from the same area, NYC, which analyses the weather and plot the crashes in clear weather against that in rain:
 
 ![crashes-without-rain]
+
 ![crashes-with-rain]
 
 
