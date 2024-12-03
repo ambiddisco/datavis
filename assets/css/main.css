@@ -221,4 +221,37 @@ img {
     display: none;
 }
 
+.visualisation {
+    display: flex;
+    flex-direction: column;
+    padding-inline: 5rem;
+    padding-bottom: 3rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.visualisation img {
+    max-height: 600px;
+    max-width: 800px;
+    width: auto;
+    margin: 1rem;
+    margin: 1.5rem 1rem 2rem 1rem;
+    outline: 4px solid var(--HEADERCOLOR);
+    border-radius: 5%;
+    flex-direction: row;
+
+}
+
+.visualisation p {
+    text-align: left;
+}
+
+.visualisation ul {
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+    list-style-type: circle;
+    list-style-position: inside;
+    justify-content: left;
+}
+
 
