@@ -8,16 +8,16 @@
     /* FONT DEFAULTS */
     --FF: "Cabin Sketch", "Cabin", sans-serif;
     --FFP: "Cabin", sans-serif;
-    --FW: 800;
-    --FS: 1.4rem;
+    --FW: 600;
+    --FS: 1.2rem;
 
     /* COLOURS */
-    --BGCOLOR: #a6d38d;
-    --BGTEXT: #d7fec2;
-    --NAVBAR: #0b4922;
+    --BGCOLOR: #92b87d;
+    --BGTEXT: #c5e3b4;
+    --NAVBAR: #063316;
     --NAVTEXT: #d7fec2;
     --TEXTCOLOR: black;
-    --HEADERCOLOR: #0b4922;
+    --HEADERCOLOR: #063016;
     --ACCENTCOLOR1: #37125C;
     --ACCENTCOLOR2: #FFCBF8;
     --ACCENTCOLOR3: #f2aa7e;
@@ -63,7 +63,7 @@ nav ul {
     flex-direction: row;
     gap: 1.5rem;
     justify-content: center;
-    font-size: 1.5rem;
+    font-size: 1.7rem;
 }
 
 nav a {
@@ -97,7 +97,7 @@ footer {
     justify-content: center;
     padding: 1rem;
     font-weight: 900;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
 }
 
 footer p {
@@ -120,11 +120,6 @@ main {
     align-items: center;
     text-align: center;
 }
-
-/*
-.content {
-    background-color: blue;
-}*/
 
 .central {
     display: flex;
